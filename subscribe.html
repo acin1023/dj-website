@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/styles/default-style.css" />
+    <link rel="stylesheet" href="/styles/utility.css" />
+    <link rel="stylesheet" href="/styles/subscribe.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Baumans&family=Bungee+Shade&family=Fascinate+Inline&family=Faster+One&family=Honk&family=Jersey+10&family=Lacquer&family=Monoton&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <title>Subscribe</title>
+  </head>
+  <body class="subscribe_bg">
+    <header class="header_container">
+      <img src="images/mainlogo.png" alt="logo" class="logo" />
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a class="header__link" href="index.html" target="_blank">Home</a>
+          </li>
+          <li>
+            <a class="header__link" href="playlist.html" target="_blank"
+              >Playlists</a
+            >
+          </li>
+          <li>
+            <a class="header__link" href="subscribe.html" target="_blank"
+              >Stay Connected</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="newsletter">
+      <p>Subscribe to stay up to date with the latest content!</p>
+      <form
+        class="form-group"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="bc82fb0a-3469-457c-b345-ec77cc76f3b3"
+        />
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Your Full Name..."
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Your Email..."
+          class="contact-inputs"
+          required
+        />
+        <button type="submit" class="btn small-btn">Subscribe</button>
+      </form>
+    </div>
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>
