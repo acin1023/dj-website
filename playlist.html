@@ -21,14 +21,14 @@
     <link rel="stylesheet" href="/styles/default-style.css" />
     <link rel="stylesheet" href="/styles/utility.css" />
     <link rel="stylesheet" href="/styles/playlist.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Playlists</title>
   </head>
   <body>
     <header class="header_container">
       <img src="images/mainlogo.png" alt="logo" class="logo" />
       <nav>
-        <ul class="navbar">
+        <ul class="navbar" data-aos="slide-right" data-aos-duration="9000">
           <li>
             <a
               class="header__link play-header"
@@ -147,5 +147,9 @@
       </div>
     </section>
     <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
