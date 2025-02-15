@@ -104,6 +104,14 @@ nav ul {
     box-shadow: 0 0 50px var(--clr-dark);
 }
 
+.card:hover {
+    background-color: var(--clr-blue400);
+    color: var(--clr-neutral100);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.35s ease-in-out;
+}
+
 .card-image {
     height: 100%;
     margin-bottom: 11rem;
@@ -119,13 +127,6 @@ nav ul {
     font-size: var(--size-2xl);
 }
 
-.card h3:hover {
-    text-decoration: none;
-    color: var(--clr-dark);
-    font-family: "Barrio", serif;
-    font-weight: 700;
-    font-size: var(--size-2xl);
-}
 
 .description {
     margin: 0.8rem;
@@ -135,22 +136,8 @@ nav ul {
     font-style: normal;
 }
 
-.description:hover {
-    margin: 0.8rem;
-    text-align: center;
-    font-family: "Baumans", serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 
-.card:hover {
-    background-color: var(--clr-blue400);
-    color: var(--clr-neutral100);
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.35s ease-in-out;
-}
 
 .card-1 {
     background-image: url("/images/dance.jpeg");
