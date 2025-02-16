@@ -145,25 +145,25 @@ nav ul {
 
 
 .card-2 {
-    background-image: url(/images/verano.jpg);
+    background-image: url("../images/verano.jpeg");
 }
 
 .card-3 {
-    background-image: url(/images/love2.jpg);
+    background-image: url("../images/love.jpeg");
 }
 
 
 .card-4 {
-    background-image: url(/images/nostalgia.jpg);
+    background-image: url("../images/nostalgia.jpeg");
 }
 
 .card-5 {
-    background-image: url(/images/WheresTheBlow.jpeg);
+    background-image: url("../images/rockstar.jpeg");
 
 }
 
 .card-6 {
-    background-image: url(/images/aux.jpg);
+    background-image: url("../images/aux.jpeg");
 
 }
 
