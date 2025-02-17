@@ -1,7 +1,5 @@
 {
     "rewrites": [
         { "source": "/(.*)", "destination": "/"}, 
-        { "source": "/playlist", "destination": "/"}, 
-        { "source": "/subscribe", "destination": "/"}
     ]
 }
