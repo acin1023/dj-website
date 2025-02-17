@@ -126,7 +126,7 @@ nav li a:hover {
 
     .small-btn {
         font-size: var(--size-xs);
-        left: 74%;
+        left: 68%;
         transform: translateY(-135%);
     }
 
